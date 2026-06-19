@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const ctaItems = [
-  "40% Launch Discount",
+  "35% Launch Discount",
   "Early Access",
   "Exclusive Bonuses",
   "Priority Notification",

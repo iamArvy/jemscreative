@@ -13,7 +13,7 @@
         >
           <Icon name="lucide:sparkles" class="size-4" />
         </span>
-        POSITIONED<span class="text-primary">.</span>
+        JEMSCREATIVES<span class="text-primary">.</span>
       </NuxtLink>
       <WaitlistDialog>
         <Button variant="ink" class="hidden sm:inline-flex">

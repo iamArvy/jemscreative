@@ -1,13 +1,4 @@
-<script setup lang="ts">
-// const seo = {
-//   title: "Career Brand Playbook Waitlist | Positioned",
-//   description:
-//     "Join the Career Brand Playbook waitlist and learn to build an ATS-friendly CV, optimize LinkedIn, and attract better career opportunities.",
-//   ogTitle: "Stop Being Invisible — Career Brand Playbook",
-//   ogDescription:
-//     "Join early for 40% off, practical career positioning frameworks, and exclusive launch bonuses.",
-// };
-</script>
+<script setup lang="ts"></script>
 <template>
   <div class="min-h-screen overflow-hidden bg-background text-foreground">
     <LayoutHeader />

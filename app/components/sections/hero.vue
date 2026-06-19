@@ -36,7 +36,7 @@
       </div>
       <p class="mt-4 text-sm font-medium text-muted-foreground">
         <Icon name="lucide:gift" class="mr-1 inline size-4 text-primary" /> Get
-        40% off and exclusive bonuses reserved for early subscribers.
+        35% off and exclusive bonuses reserved for early subscribers.
       </p>
       <div
         class="mt-11 flex flex-wrap justify-center gap-x-6 gap-y-3 text-sm font-semibold text-foreground/75"

@@ -37,7 +37,7 @@ const inputClass =
           <DialogDescription
             class="mt-2 text-sm leading-6 text-primary-foreground/80"
           >
-            Reserve your spot for 40% off launch pricing and free bonus
+            Reserve your spot for 35% off launch pricing and free bonus
             templates.
           </DialogDescription>
         </DialogHeader>
