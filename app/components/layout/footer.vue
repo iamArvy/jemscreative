@@ -2,15 +2,15 @@
 const contacts = [
   {
     label: "Whatsapp",
-    value: "https://example.com",
+    value: "https://wa.me/2348111371078",
   },
   {
     label: "Email",
-    value: "mailto:a@example.com",
+    value: "mailto:hello.jemscreatives@gmail.com",
   },
   {
     label: "Phone",
-    value: "tel:08012345678",
+    value: "tel:07084375922",
   },
 ];
 </script>
