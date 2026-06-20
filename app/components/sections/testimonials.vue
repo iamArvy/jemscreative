@@ -46,7 +46,7 @@ const testimonials = [
         <figure
           v-for="{ name, role, image, quote } in testimonials"
           key="name"
-          class="rounded-3xl border border-border bg-card p-7 shadow-soft"
+          class="rounded-3xl border border-border bg-card p-7 shadow-soft flex flex-col"
         >
           <div class="flex gap-1 text-primary" aria-label="5 out of 5 stars">
             <Icon
@@ -56,7 +56,7 @@ const testimonials = [
               class="size-4 fill-current"
             />
           </div>
-          <blockquote class="mt-6 text-base leading-7 text-foreground">
+          <blockquote class="mt-6 text-base leading-7 text-foreground flex-1">
             “{{ quote }}”
           </blockquote>
           <figcaption
