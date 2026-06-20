@@ -6,24 +6,24 @@ import tobiAvatar from "@/assets/images/testimonial-tobi.jpg";
 const testimonials = [
   {
     name: "Amara K.",
-    role: "Marketing graduate",
+    role: "Recent graduate",
     image: amaraAvatar,
     quote:
-      "I stopped treating my CV like a list of duties. The positioning approach helped me tell a much clearer story—and recruiters finally started replying.",
+      "I thought this was just another CV guide until I read the ATS section. It completely changed how I think about applications. I immediately rewrote my CV using the framework and realized how many mistakes I had been making.",
   },
   {
     name: "Daniel R.",
-    role: "Junior data analyst",
+    role: "NYSC Member",
     image: danielAvatar,
     quote:
-      "The LinkedIn framework was practical and specific. Within weeks, I had more profile views and two conversations I didn't have to chase.",
+      "The LinkedIn module alone was worth it. I updated my headline and About section using the templates and suddenly my profile looked like someone who knew what they were doing professionally.",
   },
   {
     name: "Tobi A.",
-    role: "Associate product manager",
+    role: "Early Career Professional",
     image: tobiAvatar,
     quote:
-      "This is the guidance I wish I had after graduation: straightforward, honest, and focused on making your value visible.",
+      "What stood out to me was how practical everything was. No fluff. No theory. Every page felt like something I could implement immediately.",
   },
 ];
 </script>

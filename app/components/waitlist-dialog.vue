@@ -109,23 +109,19 @@ const inputClass =
             <FormItem>
               <FormLabel for="waitlist-phone">Phone number </FormLabel>
               <FormControl>
-                <div class="relative">
-                  <Icon
-                    name="lucide:phone"
-                    class="absolute left-4 top-1/2 size-5 -translate-y-1/2 text-muted-foreground"
-                  />
-                  <Input
+                <InputGroup :class="inputClass">
+                  <InputGroupInput
                     id="waitlist-phone"
+                    placeholder="810 123 4567"
                     type="tel"
                     required
                     :minLength="7"
                     :maxLength="20"
                     autoComplete="tel"
-                    placeholder="+1 (555) 000-0000"
-                    :class="cn(inputClass, 'pl-12')"
                     v-bind="componentField"
                   />
-                </div>
+                  <InputGroupAddon> +234 </InputGroupAddon>
+                </InputGroup>
               </FormControl>
             </FormItem>
           </FormField>

@@ -9,7 +9,9 @@ const currentReality = [
 const betterReality = [
   "An ATS-friendly CV",
   "An optimized LinkedIn profile",
-  'A strong personal brand", "Recruiters finding you", "More interviews and opportunities',
+  "A strong personal brand",
+  "Recruiters finding you",
+  "More interviews and opportunities",
 ];
 </script>
 <template>

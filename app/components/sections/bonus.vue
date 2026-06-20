@@ -1,10 +1,30 @@
 <script setup lang="ts">
 const bonuses = [
-  "ATS CV Template",
-  "Cover Letter Templates",
-  "ATS Power Words List",
-  "LinkedIn Headline Formula",
-  "LinkedIn Banner Design",
+  {
+    title: "ATS-Compliant CV Template",
+    description:
+      "Aprofessionally structured template designed to help you implement the frameworks immediately.",
+  },
+  {
+    title: "CoverLetter Template Pack",
+    description:
+      "Ready-to-edit cover letter templates you can adapt to different opportunities.",
+  },
+  {
+    title: "ATS Power Words List",
+    description:
+      "A curated collection of action verbs and impact-driven language designed to strengthen your applications.",
+  },
+  {
+    title: "LinkedIn Headline Formula Sheet",
+    description:
+      "The exact framework used to create recruiter-friendly headlines that increase profile visibility.",
+  },
+  {
+    title: "Free LinkedIn Banner Design",
+    description:
+      "A custom-designed LinkedIn banner to instantly elevate your professional presence.",
+  },
 ];
 </script>
 <template>
@@ -17,7 +37,7 @@ const bonuses = [
         <span
           class="inline-flex items-center gap-2 rounded-full bg-primary/20 px-4 py-2 text-sm font-bold text-sky"
         >
-          <Gift class="size-4" /> FREE FOR EARLY WAITLIST MEMBERS
+          <Icon name="lucide:gift" class="size-4" /> Join Early. Get Rewarded.
         </span>
         <h2
           id="bonus-title"
@@ -32,7 +52,7 @@ const bonuses = [
       </div>
       <div class="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
         <article
-          v-for="(bonus, index) in bonuses"
+          v-for="({ title, description }, index) in bonuses"
           key="bonus"
           class="rounded-3xl border border-secondary-foreground/10 bg-secondary-foreground/5 p-6 transition hover:-translate-y-1 hover:bg-secondary-foreground/10"
         >
@@ -40,12 +60,12 @@ const bonuses = [
             >BONUS 0{{ index + 1 }}</span
           >
           <Icon
-            name="lucide:file-text"
+            name="lucide:gift"
             class="mt-8 size-8 text-primary-foreground"
           />
-          <h3 class="mt-5 font-display text-lg font-bold">{{ bonus }}</h3>
+          <h3 class="mt-5 font-display text-lg font-bold">{{ title }}</h3>
           <p class="mt-3 text-sm text-secondary-foreground/55">
-            Included free when you secure your early access spot.
+            {{ description }}
           </p>
         </article>
       </div>
