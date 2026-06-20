@@ -38,22 +38,6 @@
         <Icon name="lucide:gift" class="mr-1 inline size-4 text-primary" /> Get
         35% off and exclusive bonuses reserved for early subscribers.
       </p>
-      <div
-        class="mt-11 flex flex-wrap justify-center gap-x-6 gap-y-3 text-sm font-semibold text-foreground/75"
-      >
-        <span
-          v-for="item in [
-            'No spam. Ever.',
-            'Early-bird pricing',
-            'Cancel anytime',
-          ]"
-          key="item"
-          class="flex items-center gap-2"
-        >
-          <Icon name="check" class="size-4 text-success" />
-          {{ item }}
-        </span>
-      </div>
     </div>
   </section>
 </template>

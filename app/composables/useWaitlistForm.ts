@@ -16,13 +16,21 @@ export function useWaitlistForm() {
   });
   const success = ref<boolean>(false);
 
-  const onSubmit = handleSubmit(async (formValues) => {
+  const onSubmit = handleSubmit(async (values) => {
     try {
+      await $fetch("/api/waitlist", {
+        method: "POST",
+        body: {
+          name: values.name,
+          email: values.email,
+          phone: values.phone,
+        },
+      });
+
       window.setTimeout(() => (success.value = true), 900);
       success.value = true;
     } catch (e: unknown) {
       console.error(e);
-      // error(handleError(e, "Error saving ad"));
     }
   });
 

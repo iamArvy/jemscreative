@@ -11,10 +11,13 @@ export default defineNuxtConfig({
     "shadcn-nuxt",
     "nuxt-seo-utils",
   ],
+
   css: ["~/assets/css/tailwind.css"],
+
   vite: {
     plugins: [tailwindcss()],
   },
+
   shadcn: {
     /**
      * Prefix for all the imported component.
@@ -29,6 +32,7 @@ export default defineNuxtConfig({
      */
     componentDir: "@/components/ui",
   },
+
   site: {
     name: "Career Branding Playbook Waitlist | Jem's Creatives",
     description:
@@ -38,5 +42,9 @@ export default defineNuxtConfig({
       "Join early for 35% off, practical career positioning frameworks, and exclusive launch bonuses.",
     url: "https://jemscreatives.vercel.app",
     image: "https://jemscreatives.vercel.app/og-image.jpg",
+  },
+
+  runtimeConfig: {
+    googleScriptUrl: "",
   },
 });
