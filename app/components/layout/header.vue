@@ -8,12 +8,7 @@
         to="/"
         class="flex items-center gap-2 font-display text-lg font-extrabold tracking-tight"
       >
-        <span
-          class="grid size-9 place-items-center rounded-xl bg-primary text-primary-foreground"
-        >
-          <Icon name="lucide:sparkles" class="size-4" />
-        </span>
-        JEMSCREATIVES<span class="text-primary">.</span>
+        <AppLogo />
       </NuxtLink>
       <WaitlistDialog>
         <Button variant="ink" class="hidden sm:inline-flex">

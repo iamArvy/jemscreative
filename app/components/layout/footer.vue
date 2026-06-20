@@ -21,7 +21,7 @@ const contacts = [
       class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 text-center sm:flex-row sm:text-left"
     >
       <NuxtLink to="/" class="font-display text-lg font-extrabold">
-        JEMSCREATIVES<span class="text-primary">.</span>
+        <AppLogo />
       </NuxtLink>
       <p class="text-sm text-muted-foreground">
         Build a career brand that opens doors.
