@@ -1,22 +1,22 @@
 <script setup lang="ts">
-import amaraAvatar from "@/assets/images/testimonial-amara.jpg";
-import danielAvatar from "@/assets/images/testimonial-daniel.jpg";
+import josiahAvatar from "@/assets/images/josiah.jpeg";
+import godstimeAvatar from "@/assets/images/godstime.jpeg";
 import tobiAvatar from "@/assets/images/testimonial-tobi.jpg";
 
 const testimonials = [
   {
-    name: "Amara K.",
-    role: "Recent graduate",
-    image: amaraAvatar,
+    name: "Josiah O.",
+    role: "Civil Engineer",
+    image: josiahAvatar,
     quote:
-      "I thought this was just another CV guide until I read the ATS section. It completely changed how I think about applications. I immediately rewrote my CV using the framework and realized how many mistakes I had been making.",
+      "The Career Branding Playbook is a valuable resource for job seekers and fresh graduates. It provides practical, actionable guidance that helps readers position themselves strategically in today's competitive job market. The content is clear, relatable, and easy to apply, making it a resource professionals can return to throughout their careers.",
   },
   {
-    name: "Daniel R.",
-    role: "NYSC Member",
-    image: danielAvatar,
+    name: "Godstime O.",
+    role: "Entrepreneur",
+    image: godstimeAvatar,
     quote:
-      "The LinkedIn module alone was worth it. I updated my headline and About section using the templates and suddenly my profile looked like someone who knew what they were doing professionally.",
+      "Before reading the Career Branding Playbook, I had never heard of ATS and always believed that visually designed CVs were the best option. This guide completely changed my perspective by showing me how recruiters and screening systems actually evaluate applications. The content is informative, well-organized, and practical, making complex concepts easy to understand and apply.",
   },
   {
     name: "Tobi A.",
@@ -48,12 +48,15 @@ const testimonials = [
           key="name"
           class="rounded-3xl border border-border bg-card p-7 shadow-soft flex flex-col"
         >
-          <div class="flex gap-1 text-primary" aria-label="5 out of 5 stars">
+          <div
+            class="flex gap-1 text-primary justify-center"
+            aria-label="5 out of 5 stars"
+          >
             <Icon
-              name="lucide:star"
               v-for="i in Array.from({ length: 5 })"
               key="i"
-              class="size-4 fill-current"
+              name="heroicons:star-solid"
+              class="size-4 text-primary"
             />
           </div>
           <blockquote class="mt-6 text-base leading-7 text-foreground flex-1">

@@ -30,13 +30,13 @@ export default defineNuxtConfig({
     componentDir: "@/components/ui",
   },
   site: {
-    name: "Career Brand Playbook Waitlist | Positioned",
+    name: "Career Branding Playbook Waitlist | Jem's Creatives",
     description:
-      "Join the Career Brand Playbook waitlist and learn to build an ATS-friendly CV, optimize LinkedIn, and attract better career opportunities.",
-    ogTitle: "Stop Being Invisible — Career Brand Playbook",
+      "Join the Career Branding Playbook waitlist and learn to build an ATS-friendly CV, optimize LinkedIn, and attract better career opportunities.",
+    ogTitle: "Career Branding Playbook Waitlist | Jem's Creatives",
     ogDescription:
       "Join early for 35% off, practical career positioning frameworks, and exclusive launch bonuses.",
-    url: "https://dashboard.oneclickafrica.com",
-    image: "https://dashboard.oneclickafrica.com/og-image.jpg",
+    url: "https://jemscreatives.vercel.app",
+    image: "https://jemscreatives.vercel.app/og-image.jpg",
   },
 });
