@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import josiahAvatar from "@/assets/images/josiah.jpeg";
 import godstimeAvatar from "@/assets/images/godstime.jpeg";
-import tobiAvatar from "@/assets/images/testimonial-tobi.jpg";
+import elishaAvatar from "@/assets/images/elisha.jpeg";
 
 const testimonials = [
   {
     name: "Josiah O.",
-    role: "Civil Engineer",
+    role: "Architectural Engineer",
     image: josiahAvatar,
     quote:
       "The Career Branding Playbook is a valuable resource for job seekers and fresh graduates. It provides practical, actionable guidance that helps readers position themselves strategically in today's competitive job market. The content is clear, relatable, and easy to apply, making it a resource professionals can return to throughout their careers.",
@@ -19,11 +19,11 @@ const testimonials = [
       "Before reading the Career Branding Playbook, I had never heard of ATS and always believed that visually designed CVs were the best option. This guide completely changed my perspective by showing me how recruiters and screening systems actually evaluate applications. The content is informative, well-organized, and practical, making complex concepts easy to understand and apply.",
   },
   {
-    name: "Tobi A.",
-    role: "Early Career Professional",
-    image: tobiAvatar,
+    name: "Elisha I.",
+    role: "IT Professional",
+    image: elishaAvatar,
     quote:
-      "What stood out to me was how practical everything was. No fluff. No theory. Every page felt like something I could implement immediately.",
+      "I'm not naturally a book person, but this felt more like a practical tutorial than a typical book. The content was easy to understand, well-organized, and clearly emphasized the most important points. I especially liked how each section was broken down to help readers better understand and learn.",
   },
 ];
 </script>
